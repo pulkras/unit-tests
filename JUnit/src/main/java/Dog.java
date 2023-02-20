@@ -8,7 +8,8 @@ public class Dog {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if(this.name.isEmpty())
+            this.name = name;
     }
 
     public String getName() {
