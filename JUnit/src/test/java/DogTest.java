@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class DogTest {
 
-    static Dog dog;
+    static
+    Dog dog;
 //    @BeforeEach
 //    void prepareData() {
 //        dog = new Dog("Albert", 14);
