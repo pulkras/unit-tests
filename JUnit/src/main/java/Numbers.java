@@ -1,3 +1,5 @@
+package main.java;
+
 public class Numbers {
     public int sum(int number) {
         int result = 0;

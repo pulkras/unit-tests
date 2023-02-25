@@ -1,11 +1,11 @@
-package appForTests.AmmunitionShop;
+package main.java.appForTests.AmmunitionShop;
 /*
 1.	Определить иерархию амуниции. Экипировать мотоциклиста. Посчитать стоимость.
  Провести сортировку амуниции на основе веса. Найти элементы амуниции, соответствующие заданному диапазону параметров цены.
 
  */
 
-import appForTests.Ammunition.MotorcycleAmmunition;
+import main.java.appForTests.MotorcycleAmmunition;
 
 import java.util.*;
 
@@ -53,6 +53,8 @@ public class ActionWithAmmunition {
     public String inputIndexValue(String message) {
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Введите число");
 
         String value = sc.nextLine();
 
@@ -145,33 +147,27 @@ public class ActionWithAmmunition {
         boolean valid = true;
         if (isAmmunitionListNotEmpty(list)) {
 
-            while (valid) {
+            do {
+                System.out.println(list.toArray());
                 System.out.println("Please make you choose");
-                int enterIndexNumber = parseValue(inputIndexValue("Please,try again "));
+                int enterIndexNumber = parseValue(inputIndexValue("Please,try again. Put an index"));
                 if (isDenial(enterIndexNumber)) {
                     break;
                 }
                 if (isInputIndexNumberBeInRangeListSize(enterIndexNumber, list)) {
-                 //   for (int i = 0; i < list.size(); i++) {
+                    selectedItems.add(list.get(enterIndexNumber));
+                    valid = false;
+                    System.out.println("Do you want to choose more? - Yes(0)/No(1)");
+                    int selectYesNo = parseValue(inputYesNoValue("Please,try again "));
 
-                   //     if (i == enterIndexNumber) {
-                            selectedItems.add(list.get(enterIndexNumber));
-                            valid = false;
-                            System.out.println("Do you want to choose more? - Yes(0)/No(1)");
-                            int selectYesNo = parseValue(inputYesNoValue("Please,try again "));
-
-                            if (isYesOrNo(selectYesNo)) {
-                                valid = true;
-                                break;
-                            } else {
-                                break;
-                        //    }
-                 //       }
+                    if (isYesOrNo(selectYesNo)) {
+                        valid = true;
+                        break;
+                    } else {
+                        break;
                     }
-            //    } else {
-            //        System.out.println("Incorrect index number");
                 }
-            }
+            } while(valid);
 
         } else {
             System.out.println("No items");
@@ -194,6 +190,8 @@ public class ActionWithAmmunition {
     public String inputMaxMinValue(String message) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("put a number");
+        
         String value = sc.nextLine();
 
         while (!(isMaxMinValidationTrue(value))) {

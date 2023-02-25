@@ -1,6 +1,6 @@
-package appForTests.AmmunitionShop;
+package main.java.appForTests.AmmunitionShop;
 
-import appForTests.Ammunition.MotorcycleAmmunition;
+import main.java.appForTests.MotorcycleAmmunition;
 
 import java.util.Comparator;
 

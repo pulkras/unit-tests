@@ -1,3 +1,6 @@
+package test.java;
+
+import main.java.Dog;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

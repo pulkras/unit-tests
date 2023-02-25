@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ef33f9-2759-43d6-8d01-d938ae9134ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/unit-tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/MotorcycleAmmunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleBoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleBoots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleGloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/MotorcycleGloves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleHelmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleHelmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleJacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleJacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleTrousers.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Ammunition/MotorcycleTrousers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/ActionWithAmmunition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/ActionWithAmmunition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/ClassComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/ClassComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/AmmunitionShop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/MainClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/MainClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Motorcyclist/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/appForTests/Motorcyclist/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/test/java/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/test/java/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/test/java/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/test/java/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/test/java/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MFF02Io7tM8TO3zbanbYbxZdsl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/pulkras/github/spring-mvc-project",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/JUnit/src/main/java" />
+      <recent name="$PROJECT_DIR$/JUnit/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="unit-tests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97ef33f9-2759-43d6-8d01-d938ae9134ff" name="Changes" comment="" />
+      <created>1677355206749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677355206749</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,6 +1,7 @@
-package appForTests.AmmunitionShop;
+package main.java.appForTests.AmmunitionShop;
 
-import appForTests.Ammunition.*;
+import main.java.appForTests.Ammunition.*;
+import main.java.appForTests.MotorcycleGloves;
 
 import java.util.List;
 

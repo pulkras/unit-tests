@@ -1,9 +1,10 @@
-package appForTests.Main;
+package main.java.appForTests.Main;
 
-import appForTests.Ammunition.*;
-import appForTests.AmmunitionShop.ActionWithAmmunition;
-import appForTests.AmmunitionShop.Shop;
-import appForTests.Motorcyclist.Customer;
+import main.java.appForTests.Ammunition.*;
+import main.java.appForTests.AmmunitionShop.ActionWithAmmunition;
+import main.java.appForTests.AmmunitionShop.Shop;
+import main.java.appForTests.Motorcyclist.Customer;
+import main.java.appForTests.MotorcycleGloves;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,6 @@
-package appForTests.Ammunition;
+package main.java.appForTests.Ammunition;
+
+import main.java.appForTests.MotorcycleAmmunition;
 
 /*
 1.	Определить иерархию амуниции. Экипировать мотоциклиста. Посчитать стоимость.

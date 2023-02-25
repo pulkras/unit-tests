@@ -1,3 +1,7 @@
+package test.java;
+
+import main.java.Numbers;
+
 import static org.junit.Assert.*;
 
 public class NumbersTest {
