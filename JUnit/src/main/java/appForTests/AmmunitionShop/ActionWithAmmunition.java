@@ -5,7 +5,7 @@ package main.java.appForTests.AmmunitionShop;
 
  */
 
-import main.java.appForTests.MotorcycleAmmunition;
+import main.java.appForTests.Ammunition.MotorcycleAmmunition;
 
 import java.util.*;
 
