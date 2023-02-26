@@ -1,12 +1,13 @@
 package test.java;
 
-import main.java.Numbers;
+import main.java.classesForTests.Numbers;
+import org.testng.annotations.Test;
 
 import static org.junit.Assert.*;
 
 public class NumbersTest {
 
-    @org.junit.Test
+    @Test
     public void sumTest() {
         Numbers numbers = new Numbers();
         int actual = numbers.sum(5);
