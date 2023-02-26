@@ -1,4 +1,4 @@
-package main.java;
+package main.java.classesForTests;
 
 import java.util.ArrayList;
 
@@ -51,5 +51,21 @@ public class Car {
 
     public ArrayList<String> getOwners() {
         return owners;
+    }
+
+    private String testMethod() {
+        return "abc";
+    }
+
+    private String testMethod(String string) {
+        return string;
+    }
+
+    public int testInt(int number) {
+        return number+4;
+    }
+
+    public String getDataFromRemoteServer() throws RuntimeException {
+        throw new RuntimeException("error");
     }
 }

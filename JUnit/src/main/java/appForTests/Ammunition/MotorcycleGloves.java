@@ -1,4 +1,4 @@
-package main.java.appForTests;/*
+package main.java.appForTests.Ammunition;/*
 1.	Определить иерархию амуниции. Экипировать мотоциклиста. Посчитать стоимость.
  Провести сортировку амуниции на основе веса. Найти элементы амуниции, соответствующие заданному диапазону параметров цены.
 Амуниция  -   имя, цена, вес,
@@ -10,8 +10,6 @@ package main.java.appForTests;/*
 Ботинки
 
  */
-
-import main.java.appForTests.MotorcycleAmmunition;
 
 public class MotorcycleGloves extends MotorcycleAmmunition {
 

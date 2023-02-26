@@ -4,8 +4,11 @@ import main.java.appForTests.Ammunition.*;
 import main.java.appForTests.AmmunitionShop.ActionWithAmmunition;
 import main.java.appForTests.AmmunitionShop.Shop;
 import org.junit.jupiter.api.Test;
+
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 class ActionWithAmmunitionTest {
@@ -85,6 +88,28 @@ class ActionWithAmmunitionTest {
 
     @Test
     void showItemsInfo() {
+
+        String consoleOutput = null;
+        PrintStream originalOut = System.out;
+        try {
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream(100);
+            PrintStream capture = new PrintStream(outputStream);
+            System.setOut(capture);
+
+            ActionWithAmmunition actions = new ActionWithAmmunition(getShop());
+
+            List<MotorcycleHelmet> motorcycleHelmetList = new ArrayList<MotorcycleHelmet>();
+            motorcycleHelmetList.add(new MotorcycleHelmet("cool helmet", "nike", 1499, 12, "selicon", "wooden"));
+
+            actions.showItemsInfo(motorcycleHelmetList);
+
+            capture.flush();
+            consoleOutput = outputStream.toString();
+            System.setOut(originalOut);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        assertEquals("cool helmet- " + "nike: " + "Price: " + 1499.0 + " Weight: " + 12.0 + " EyeProtectionMaterial: " + "selicon" + " HelmMaterial: " + "wooden\n", consoleOutput);
     }
 
     @Test

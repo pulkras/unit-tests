@@ -1,8 +1,6 @@
 package main.java.appForTests.Ammunition;
 
 
-import main.java.appForTests.MotorcycleAmmunition;
-
 public class MotorcycleBoots extends MotorcycleAmmunition {
 
     private int bootsSize;

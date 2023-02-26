@@ -1,4 +1,7 @@
-package main.java;
+package main.java.classesForTests;
+
+import main.java.classesForTests.Dog;
+import main.java.classesForTests.Numbers;
 
 public class Program {
     public static void main(String[] args) {

@@ -5,8 +5,6 @@ package main.java.appForTests.Ammunition;/*
  */
 
 
-import main.java.appForTests.MotorcycleAmmunition;
-
 public class MotorcycleJacket extends MotorcycleAmmunition {
 
     private String jacketSize;

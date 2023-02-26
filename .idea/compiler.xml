@@ -12,5 +12,8 @@
         <module name="JUnit" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JUnit" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

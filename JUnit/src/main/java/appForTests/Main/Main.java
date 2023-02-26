@@ -4,7 +4,7 @@ import main.java.appForTests.Ammunition.*;
 import main.java.appForTests.AmmunitionShop.ActionWithAmmunition;
 import main.java.appForTests.AmmunitionShop.Shop;
 import main.java.appForTests.Motorcyclist.Customer;
-import main.java.appForTests.MotorcycleGloves;
+import main.java.appForTests.Ammunition.MotorcycleGloves;
 
 import java.util.ArrayList;
 import java.util.List;

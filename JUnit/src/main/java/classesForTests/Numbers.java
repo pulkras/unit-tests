@@ -1,4 +1,4 @@
-package main.java;
+package main.java.classesForTests;
 
 public class Numbers {
     public int sum(int number) {
